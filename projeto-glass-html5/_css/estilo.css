@@ -1,0 +1,48 @@
+@charset "UTF-8";
+mainMenu{
+  text-shadow: 2px 2px 5px white;
+  font-family:fantasy;
+  font-weight: 900;
+  color: black;
+}
+body {
+  color: rgb(238, 173, 75);
+  
+}
+p {
+  text-align: justify;
+  text-indent: 50px;
+}
+/*configuração do hiperlink*/
+a {
+  color: yellow;
+  font-style: italic;
+  font-weight: 900;
+}
+/*Formatação de imagens com legendas.*/
+
+figure.photo-legend {
+  position: relative;
+  border: 8px solid goldenrod;
+  box-shadow: 1px 1px 8px white;
+}
+figure.photo-legend img {
+  width: 100%;
+  height: 100%;
+}
+figure.photo-legend figcaption {
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  background-color: rgba(186, 199, 7, 0.4);
+  color: black;
+  font-size: 25px;
+  width: 100%;
+  height: 100%;
+  padding: 25px;
+  box-sizing: border-box;
+  transition: linear 300ms;
+}
+figure.photo-legend:hover figcaption {
+opacity: 1;
+}
