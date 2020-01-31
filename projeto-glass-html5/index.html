@@ -6,7 +6,6 @@
     <title>All About Google Glass</title>
    <link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
 <style>
-
     body {
     background-image:url('./background/abstracts background4.jpg');
     }
@@ -16,44 +15,31 @@
 <body>
     <div id="interface">
 <!-- part of head -->
-        <head id="superScription">
-    <style>
-        h1{
-            text-shadow: 5px 5px 5px black;
-            color: tomato;
-        }
-
-        h2{
-            color: darkgray;
-        }
-
-        p{
-            color: ghostwhite;
-        }
-    </style>
-
-    <hgroup>
+     <header id="superScription">
+            
+     <hgroup>
         <h1>Google Glass</h1>
         <h2>The Google Revolution is Coming</h2>
-    </hgroup>
+     </hgroup>
 
-    <img src="./_imagens/glass-oculos-preto-peq.png"/>
-<nav>
+    <img id="icon" src="./_imagens/glass-oculos-preto-peq.png"/>
+<nav id="mainMenu">
     <mainMenu>
     <h1>Main Menu </h1>
-    <ol>
-        <li><a href="index.html">Home</a><li>
-        <li><a href="specs.html">Specifications</a><li>
-        <li> Photos</li>
-        <li>  Multimedia</li>
-        <li> Contact us</li>
-    </ol>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="specs.html">Specifications</a></li>
+        <li><a href="fotos.html">Photos</a></li>
+        <li><a href="multimidia.html">Multimedia</a></li>
+        <li><a href="fale-conosco.html"> Contact us</a></li>
+    </ul>
 </nav>
     </mainMenu>
    
     </style>
-</head>
+</header>
 <!-- part of head -->
+<section id="corps">
 
 <hgroup>
     <h3>Technology > Inovations</h3>
@@ -90,12 +76,15 @@ mas seu lançamento para as lojas fica para, pelo menos, 2014.</p>
 
 <h1>Tecnical Specification:</h1>
 
-<h2>Tecnical Table of the Google Glass March/2013</h2>
-
-Screen: Resolution equivalent to 25 "<br/>
-Camera: 5MP for photos / 720p for videos <br/>
-Connectivity: Wi-Fi / Bluetooth <br/>
-Internal Memory: 12GB
+<table id="tableSpec">
+<caption>Tecnical Table of the Google Glass March/2013</caption>
+    <tr><td>Screen</td><td> Resolution equivalent to 25 "</td></tr>
+    <tr><td rowspan="2">Camera</td><td>5MP to photos</td></tr>
+    <tr><td>720p for videos</td></tr>
+    <tr><td rowspan="2">Connectivity</td><td>Wi-Fi</td></tr>
+    <tr><td>Bluetooth</td></tr> 
+    <tr><td>Internal Memory</td><td>12GB</td></tr>
+</table>
 
 <h1>How Works?:</h1>
 
@@ -112,6 +101,9 @@ mostrar o clima, agenda e até mesmo permitir que você marque encontros apenas 
 
 [AQUI ENTRA UM VÍDEO]
 
+</section>
+
+<aside id="side">
 <h1>Other News:</h1>  
 
 <h2>The most recent video: </h2>
@@ -130,9 +122,14 @@ mostrar o clima, agenda e até mesmo permitir que você marque encontros apenas 
 <p>Além da surpresa do áudio, a tela montada a frente do olho do usuário também chamou atenção. 
 Serão 640 x 360 pixels de resolução que, em proporção, equivaleria a um monitor de 25 polegadas 
 de alta definição colocado a 2,5 metros de distância do espectador.</p>
+</aside>
 
-<p> 2013 - by Gustavo Guanabara
-Facebook | Twitter</p>
+<footer id="footNote">
+<p> 2013 - by Gustavo Guanabara<br/>
+<a href="http://facebook.com/cursosemvideo" target="_blank">Facebook </a>|
+<a href="http://twitter.com/cursoemvideo" target="_blank">Twitter</a>
+</p>
+</footer>
 
     </div>
 </body>
