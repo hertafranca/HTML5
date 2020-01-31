@@ -1,9 +1,11 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Uncial+Antiqua&display=swap');
 @font-face {
   font-family:'FonteLogo';
   src:url("../_fonts/bubblegum-sans-regular.otf");
 }
+
 /* configuração do menu principal*/
 nav#mainMenu li {
   display: inline-block;
@@ -64,6 +66,36 @@ table#tableSpec {
 table#tableSpec td {
   box-shadow: 0px 0px 10px rgba(218, 165, 32, .5);
   padding: 10px;
+}
+
+table#tableSpec td.cLeft {
+  color: #eeeeee;
+  text-decoration: none;
+  text-shadow: 3px 5px 10px goldenrod;
+  font-family:fantasy;
+  font-weight: 900; 
+  vertical-align: top;
+}
+
+table#tableSpec td.cright {
+  color:tomato;
+  text-decoration: none;
+  text-shadow: 3px 5px 10px tomato;
+  font-family:fantasy;
+}
+
+table#tableSpec caption {
+  font-size: 10pt;
+  font-weight: bolder;
+  font-family: 'Uncial Antiqua', cursive; 
+}
+
+table#tableSpec caption span {
+  display: block;
+  float: right;
+  color: whitesmoke;
+  font-size: 8pt;
+  margin-top: 10px;
 }
 
 aside#side {
