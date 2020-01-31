@@ -55,15 +55,15 @@ section#corps {
 }
 
 table#tableSpec {
-box-shadow: 0px 0px 10px rgba(218, 165, 32, .5);
- border-spacing: 0px;
+  box-shadow: 0px 0px 10px rgba(218, 165, 32, .5);
+  border-spacing: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 
 table#tableSpec td {
   box-shadow: 0px 0px 10px rgba(218, 165, 32, .5);
- padding: 10px;
+  padding: 10px;
 }
 
 aside#side {
