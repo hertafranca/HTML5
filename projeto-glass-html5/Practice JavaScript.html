@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Test Second of the JavaScript </title>
+
+  <script>
+      function turnOnLamp() {
+        document.getElementById("light").src= "_imagens/lampada-acesa.jpg";
+      }
+      function turnOffLamp() {
+        document.getElementById("light").src = "_imagens/lampada-apagada.jpg";
+      }
+      function breakLamp() {
+        document.getElementById("light").src = "_imagens/lampada-quebrada.jpg";
+      }
+  </script>
+
+</head>
+<body>
+  <h1>Tun on the Lamp!</h1>
+  <img src="_imagens/lampada-apagada.jpg" id="light" onmousemove="turnOnLamp()" onmouseout="turnOffLamp()" onclick="breakLamp()"/>
+</body>
+</html>
