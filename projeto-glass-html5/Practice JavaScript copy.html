@@ -1,10 +1,32 @@
 <!DOCTYPE html>
 <html lang="en-GB">
+  <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Test Second of the JavaScript </title>
+
+<style>
+  body{
+    background-image: url("./background/971.jpg");
+  }
+  h1{
+    color: #e9be55;
+    font-family: 'Luckiest Guy', cursive;
+    text-shadow:rgb(59, 55, 55) 15px 10px;
+  font-size: 50pt;
+  }
+  h2 {
+    background-color: thistle;
+    width: 380px;
+    height: 30px;
+    color: #5a3005;
+    font-family: 'Fredoka One', cursive;
+  }
+</style>
 
   <script>
       function turnOnLamp() {
@@ -19,8 +41,11 @@
   </script>
 
 </head>
+
 <body>
   <h1>Tun on the Lamp!</h1>
+  <h2>And Break the Lamp with a click!</h2>
   <img src="_imagens/lampada-apagada.jpg" id="light" onmousemove="turnOnLamp()" onmouseout="turnOffLamp()" onclick="breakLamp()"/>
 </body>
+
 </html>
