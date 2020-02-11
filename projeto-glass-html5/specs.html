@@ -1,63 +1,67 @@
 <!DOCTYPE html> 
 <html lang="english">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>All About Google Glass</title>
+		<link rel="stylesheet" type="text/css"  href="_css/estilo.css"/>
+		<link rel="stylesheet" href="_css/specs.css"/>
+		<style>
+			body {
+				background-image:url('./background/abstracts background4.jpg');
+			}
+		</style>
+		<script src="_javascript/funcoes.js"></script> 
+	</head>
+	<body>  
+		<div id="interface">
+	<!-- part of head -->
+			<header id="superScription">		
+				<hgroup>
+					<h1>Google Glass</h1>
+					<h2>The Google Revolution is Coming</h2>
+				</hgroup>
+				<img id="icon" src="./_imagens/glass-oculos-preto-peq.png"/>
+				<nav id="mainMenu">
+					<mainMenu>
+						<h1>Main Menu </h1>
+						<ul>
+								<li onmouseover="changephoto('_imagens/home.png')" onmouseout="changephoto('./_imagens/especificacoes.png')"><a href="index.html">Home</a></li>
+								<li onmouseover="changephoto('_imagens/especificacoes.png')" onmouseout="changephoto('./_imagens/especificacoes.png')"><a href="specs.html">specifications</a></li>
+								<li onmouseover="changephoto('_imagens/fotos.png')" onmouseout="changephoto('./_imagens/especificacoes.png')"><a href="fotos.html">photos</a></li>
+								<li onmouseover="changephoto('_imagens/multimidia.png')" onmouseout="changephoto('./_imagens/especificacoes.png')"><a href="multimidia.html">multimedia</a></li>
+								<li onmouseover="changephoto('_imagens/contato.png')" onmouseout="changephoto('./_imagens/especificacoes.png')"><a href="fale-conosco.html">contact</a></li>
+						</ul>
+					</mainMenu>
+				</nav>
+			</header>
+			<section id="corp-full">
+				<article id="mainNews">
+					<header id="mainNews-article">
+						<hgroup>
+								<h3>Glass > specifications</h3>
+								<h1>X-ray on Google Glass</h1>
+								<h2>by Gustavo Guanabara</h2>
+								<h3 class="right">Updated May/01st/2013</h3>
+						</hgroup> 
+					</header>
 
-<head>
-    <meta charset="UTF-8"/>
-    <title>All About Google Glass</title>
-   <link rel="stylesheet" type="text/css"  href="_css/estilo.css"/>
-    <style>
-    body {
-    background-image:url('./background/abstracts background4.jpg');
-    }
-    </style>
-   
-</head>
-<script src="_javascript/funcoes.js"></script> 
+					<p>Click on any highlighted area of ​​the image to get more information about
+					Google Glass features. Any red dot will take you to a place full 
+					of new information.</p>
 
-<body>
-   
-    <div id="interface">
-<!-- part of head -->
-     <header id="superScription">
-            
-     <hgroup>
-        <h1>Google Glass</h1>
-        <h2>The Google Revolution is Coming</h2>
-     </hgroup>
+					<section id="content">
+							<img src="_imagens/glass-esquema-marcado.jpg"/>
+							<iframe name="window" id="frame-spec"src="google-glass.html"></iframe>
+					</section>
+				</article>	
+			</section>
 
-    <img id="icon" src="./_imagens/glass-oculos-preto-peq.png"/>
-<nav id="mainMenu">
-    <mainMenu>
-    <h1>Main Menu </h1>
-    <ul>
-        <li onmouseover="changephoto('_imagens/home.png')" onmouseout="changephoto('./_imagens/especificacoes.png')"><a href="index.html">Home</a></li>
-        <li onmouseover="changephoto('_imagens/especificacoes.png')" onmouseout="changephoto('./_imagens/especificacoes.png')"><a href="specs.html">specifications</a></li>
-        <li onmouseover="changephoto('_imagens/fotos.png')" onmouseout="changephoto('./_imagens/especificacoes.png')"><a href="fotos.html">photos</a></li>
-        <li onmouseover="changephoto('_imagens/multimidia.png')" onmouseout="changephoto('./_imagens/especificacoes.png')"><a href="multimidia.html">multimedia</a></li>
-        <li onmouseover="changephoto('_imagens/contato.png')" onmouseout="changephoto('./_imagens/especificacoes.png')"><a href="fale-conosco.html">contact</a></li>
-    </ul>
-</nav>
-    </mainMenu>
-   
-    </style>
-</header>
-
-Glass > Especificações
-Raio-X no Google Glass
-por Gustavo Guanabara
-Atualizado em 01/Maio/2013
-
-Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.
-
-[AQUI ENTRA UMA IMAGEM]
-
-<footer id="footNote">
-  <p> 2013 - by Gustavo Guanabara<br/>
-  <a href="http://facebook.com/cursosemvideo" target="_blank">Facebook </a>|
-  <a href="http://twitter.com/cursoemvideo" target="_blank">Twitter</a>
-  </p>
-  </footer>
-  
-      </div>
-  </body>
-  </html>
+			<footer id="footNote">
+				<p> 2013 - by Gustavo Guanabara<br/>
+				<a href="http://facebook.com/cursosemvideo" target="_blank">Facebook </a>|
+				<a href="http://twitter.com/cursoemvideo" target="_blank">Twitter</a>
+				</p>
+			</footer>
+		</div>  
+	</body>
+</html>
