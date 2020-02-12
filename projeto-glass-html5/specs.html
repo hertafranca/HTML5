@@ -50,12 +50,17 @@
 					of new information.</p>
 
 					<section id="content">
-							<img src="_imagens/glass-esquema-marcado.jpg"/>
-							<iframe name="window" id="frame-spec"src="google-glass.html"></iframe>
+							<img src="_imagens/glass-esquema-marcado.jpg" usemap="#myMap"/>
+							<map name="myMap">
+								<area shape="rect" coords="150,280,235,230" href="google-glass.html#screen" target="window"/>
+								<area shape="circle" coords="130,265,16" href="google-glass.html#camera" target="window"/>
+								<area shape="circle" coords="65,55,12" href="google-glass.html#gadgets" target="window"/>    
+								<area shape="poly" coords="28,150,90,280,30,235,30,230" href="google-glass.html#sensors" target="window"/>
+							</map>
+							<iframe src="google-glass.html"name="window" id="frame-spec"></iframe>
 					</section>
 				</article>	
 			</section>
-
 			<footer id="footNote">
 				<p> 2013 - by Gustavo Guanabara<br/>
 				<a href="http://facebook.com/cursosemvideo" target="_blank">Facebook </a>|
