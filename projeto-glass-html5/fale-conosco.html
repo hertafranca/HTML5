@@ -1,88 +1,122 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="english">
 
 <head>
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8" />
     <title>All About Google Glass</title>
-   <link rel="stylesheet" type="text/css"  href="_css/estilo.css"/>
+    <link rel="stylesheet" href="_css/estilo.css" />
+    <link rel="stylesheet" href="_css/form.css" />
     <style>
-    body {
-    background-image:url('./background/abstracts background4.jpg');
-    }
+        body {
+            background-image: url('./background/abstracts background4.jpg');
+        }
     </style>
-   
+
 </head>
-<script src="_javascript/funcoes.js"></script> 
+<script src="_javascript/funcoes.js"></script>
 
 <body>
-   
+
     <div id="interface">
-<!-- part of head -->
-     <header id="superScription">
-            
-     <hgroup>
-        <h1>Google Glass</h1>
-        <h2>The Google Revolution is Coming</h2>
-     </hgroup>
+        <!-- part of head -->
+        <header id="superScription">
 
-    <img id="icon" src="./_imagens/glass-oculos-preto-peq.png"/>
-<nav id="mainMenu">
-    <mainMenu>
-    <h1>Main Menu </h1>
-    <ul>
-        <li onmouseover="changephoto('_imagens/home.png')" onmouseout="changephoto('./_imagens/contato.png')"><a href="index.html">Home</a></li>
-        <li onmouseover="changephoto('_imagens/especificacoes.png')" onmouseout="changephoto('./_imagens/contato.png')"><a href="specs.html">specifications</a></li>
-        <li onmouseover="changephoto('_imagens/fotos.png')" onmouseout="changephoto('./_imagens/contato.png')"><a href="fotos.html">photos</a></li>
-        <li onmouseover="changephoto('_imagens/multimidia.png')" onmouseout="changephoto('./_imagens/contato.png')"><a href="multimidia.html">multimedia</a></li>
-        <li onmouseover="changephoto('_imagens/contato.png')" onmouseout="changephoto('./_imagens/contato.png')"><a href="fale-conosco.html">contact</a></li>
-    </ul>
-</nav>
-    </mainMenu>
-   
-    </style>
-</header>
+            <hgroup>
+                <h1>Google Glass</h1>
+                <h2>The Google Revolution is Coming</h2>
+            </hgroup>
 
-Fale Conosco > Contato
-Formulário de Contato
-por Gustavo Guanabara
-Atualizado em 01/Maio/2013
+            <img id="icon" src="./_imagens/glass-oculos-preto-peq.png" />
+            <nav id="mainMenu">
+                <mainMenu>
+                    <h1>Main Menu </h1>
+                    <ul>
+                        <li onmouseover="changephoto('_imagens/home.png')"
+                            onmouseout="changephoto('./_imagens/contato.png')"><a href="index.html">Home</a></li>
+                        <li onmouseover="changephoto('_imagens/especificacoes.png')"
+                            onmouseout="changephoto('./_imagens/contato.png')"><a href="specs.html">specifications</a>
+                        </li>
+                        <li onmouseover="changephoto('_imagens/fotos.png')"
+                            onmouseout="changephoto('./_imagens/contato.png')"><a href="fotos.html">photos</a></li>
+                        <li onmouseover="changephoto('_imagens/multimidia.png')"
+                            onmouseout="changephoto('./_imagens/contato.png')"><a href="multimidia.html">multimedia</a>
+                        </li>
+                        <li onmouseover="changephoto('_imagens/contato.png')"
+                            onmouseout="changephoto('./_imagens/contato.png')"><a href="fale-conosco.html">contact</a>
+                        </li>
+                    </ul>
+            </nav>
+            </mainMenu>
 
-Identificação do Usuário
-    Nome:
-    Senha:
-    E-mail:
-    Sexo:
-        - Masculino
-        - Feminino
-    Data de Nascimento:
-
-Endereço do Usuário
-    Logradouro:
-    Número:
-    Estado:
-    Cidade:
-
-Mensagem do Usuário
-    Grau de Urgência:
-    Mensagem:
-
-Quero um Google Glass
-    Gostaria de adquirir um Google Glass quando disponível
-    Cor:
-    Quantidade:
-    Preço Total: R$
+            </style>
+        </header>
 
 
-[BOTÃO ENVIAR]
+        <section id="corp-full">
+            <article id="mainNews">
+                <header id="mainNews-article">
+                    <hgroup>
+                        <h3>Glass > photos</h3>
+                        <h1>Google Glass Image Gallery</h1>
+                        <h2>by Gustavo Guanabara</h2>
+                        <h3 class="right">Updated May/01st/2013</h3>
+                    </hgroup>
+                </header>
+            </article>
+        </section>
 
-Copyright 2013 - by Gustavo Guanabara
-<footer id="footNote">
-    <p> 2013 - by Gustavo Guanabara<br/>
-    <a href="http://facebook.com/cursosemvideo" target="_blank">Facebook </a>|
-    <a href="http://twitter.com/cursoemvideo" target="_blank">Twitter</a>
-    </p>
-    </footer>
-    
-        </div>
-    </body>
-    </html>
+        <form>
+            <fieldset id="user">
+                <legend>User ID</legend>
+                <p>Name: <input type="text" name="tname" id="cname" size="40" maxlength="50" placeholder="Full Name"/></p>
+                <p>Password: <input type="password" name="tpassword" id="cpassword" size="8" maxlength="8" placeholder="8 digit" /> </p>
+                <p>Email:</p>
+
+                <fieldset id="gender">
+                    <legend>User Gender:</legend>
+                    <p>- Male</p>
+                    <p>- Feminine</p>
+                </fieldset>
+
+                <fieldset id="born">
+                    <legend>User Born</legend>
+                    <p>Date of birth:</p>
+                </fieldset>
+
+                <fieldset id="address">
+                    <legend>User Address</legend>
+                    <p> Address:</p>
+                    <p> Number:</p>
+                    <p> State:</p>
+                    <p> City:</p>
+                </fieldset>
+
+                <fieldset id="Message">
+                    <legend>User Message</legend>
+                    <p>Degree of Urgency:</p>
+                    <p>Message:</p>
+                </fieldset>
+
+                <fieldset id="Request">
+                    <legend> I want a Google Glass.</legend>
+                    <p>I would like to purchase order a Google Glass when available.</p>
+                    <p>Color:</p>
+                    <p>Amount:</p>
+                    <p>Total Price:</p>
+                </fieldset>
+
+                [BOTÃO ENVIAR]
+        </form>
+
+
+        <footer id="footNote">
+            <p> Copyright 2013 - by Gustavo Guanabara<br />
+                <a href="http://facebook.com/cursosemvideo" target="_blank">Facebook </a>|
+                <a href="http://twitter.com/cursoemvideo" target="_blank">Twitter</a>
+            </p>
+        </footer>
+
+    </div>
+</body>
+
+</html>
