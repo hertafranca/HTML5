@@ -265,3 +265,29 @@ figure.photo-legend figcaption {
 figure.photo-legend:hover figcaption {
 opacity: 1;
 }
+
+div#video {
+margin-top:20px;
+margin-bottom: 20px;
+}
+
+video#filmOne {
+  outline: 0;
+  margin-left: 150px;
+  padding: 1px;
+  border-radius: 2px 2px 10px;
+  box-shadow: 2px 2px 10px goldenrod;
+  width: 392px;
+  height: 224px;
+}
+
+video#filmTwo {
+  outline: 0;
+  margin-left: 30px;
+  padding: 1px;
+  border-radius: 0px 2px 10px;
+  box-shadow: 2px 2px 10px goldenrod;
+  width: 392px;
+  height: 224px;
+}
+
